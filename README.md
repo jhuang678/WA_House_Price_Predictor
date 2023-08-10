@@ -20,7 +20,8 @@ python3 house_price_prediction.py
 ```
 
 During the analysis, it shows strong links between the cost of living and median house prices in Washington. On the other hand, there was no connection with the income tax rate since it's the same across all cities in the state. Specifically, the median house price tends to rise with the cost of living and median income, while it tends to decrease with an increase in the unemployment rate and air quality index.
-
+![hist](hist.png)
+![corr](corr.png)
 
 ## Outlier Detection
 
