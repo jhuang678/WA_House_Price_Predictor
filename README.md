@@ -1,8 +1,7 @@
-# DVA Group Project: No Place Like Home 
-## Description
-This is the python-Flask package for the **No Place Like Home** application, an application that helps users find 
-places to live, initially for the state of Georgia by zipcode. To use the application, you can install and launch it by
-running the flask app locally from the repo or using docker to create a container of the flask application.
+# Washington State Housing Price Predictor
+## Brief
+This project applies various machine learning models, such as Elastic-Net regression, support vector regression, Kernel SVR, Decision tree, random forests, KNN, and gradient boost to predict median house prices in Washington State. Through a comprehensive process that includes data scraping, preprocessing, model tuning, and evaluation, the project provides insights into the housing market and offers a tool for house price estimation.
+
 
 The application consist of 3 sections:
 1. Data/Backend
