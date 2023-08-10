@@ -123,9 +123,9 @@ The models used worked well, especially Linear Regression, which had the best sc
 *(Some metrics values have been rounded to integer)*
 
 - **All models** have strong predictive performance with adjusted R² values above 0.88, largely influenced by the "cost of living index" feature.
-- **Models Ranked**:
-  1. **Gradient Boosting**: Best performer across all metrics.
-  2. **Linear Regression & Elastic-Net Regression**: Similar, second-best performance; preferred if interpretability is essential.
-  3. **Random Forest & Kernel SVR**: Mid-level performance.
+- **Models Ranked**
+  1. **Gradient Boosting**
+  2. **Linear Regression & Elastic-Net Regression**, second-best performance; preferred if interpretability is essential.
+  3. **Random Forest & Kernel SVR** 
   4. **Decision Tree**
-  5. **K-Nearest Neighbors & Support Vector Regression (SVR)**: Least effective but still have good prediction ability.
+  5. **K-Nearest Neighbors & Support Vector Regression (SVR)**, least effective but still have good prediction ability.
