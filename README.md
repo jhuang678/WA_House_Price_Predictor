@@ -1,4 +1,17 @@
 # Washington State Housing Price Predictor
+
+## Table of Content
+1. [Description](#description)
+2. [Data Collection](#data-collection)
+3. [Exploratory Data Analysis](#exploratory-data-analysis)
+4. [Outlier Detection](#outlier-detection)
+5. [Data Scaling](#data-scaling)
+6. [Feature Selection](#feature-selection)
+7. [Data Splitting](#data-splitting)
+8. [Model Selection](#model-selection)
+9. [Model Training](#model-training)
+10. [Final Testing Result](#final-testing-result)
+
 ## Description
 This project applies various machine learning models, such as Elastic-Net regression, support vector regression, Kernel SVR, Decision tree, random forests, KNN, and gradient boost to predict median house prices in Washington State. Through a comprehensive process that includes data scraping, preprocessing, model tuning, and evaluation, the project provides insights into the housing market and offers a tool for house price estimation.
 
