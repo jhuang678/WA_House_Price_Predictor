@@ -28,6 +28,7 @@ During the analysis, it shows strong links between the cost of living and median
 
 Outlier detection was done to look for obvious mistakes in the features, such as negative values or percentages greater than one. Without specific knowledge about the distribution of some features, the focus was mainly on checking for these clear errors. After examining everything, no noticeable incorrect values were found.
 
+![outlier_detection](outlier_detection.png)
 
 ## Data Scaling
 
