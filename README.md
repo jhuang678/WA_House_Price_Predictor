@@ -1,19 +1,32 @@
 # Washington State Housing Price Predictor
 
 ## Table of Content
-1. [Description](#description)
-2. [Data Collection](#data-collection)
-3. [Exploratory Data Analysis](#exploratory-data-analysis)
-4. [Outlier Detection](#outlier-detection)
-5. [Data Scaling](#data-scaling)
-6. [Feature Selection](#feature-selection)
-7. [Data Splitting](#data-splitting)
-8. [Model Selection](#model-selection)
-9. [Model Training](#model-training)
-10. [Final Testing Result](#final-testing-result)
+1. [Problem Statement](#problem-statement)
+2. [Data Source](#data-source)
+3. [Data Collection](#data-collection)
+4. [Exploratory Data Analysis](#exploratory-data-analysis)
+5. [Outlier Detection](#outlier-detection)
+6. [Data Scaling](#data-scaling)
+7. [Feature Selection](#feature-selection)
+8. [Data Splitting](#data-splitting)
+9. [Model Selection](#model-selection)
+10. [Model Training](#model-training)
+11. [Final Testing Result](#final-testing-result)
+12. [Summary](#summary)
 
-## Description
-This project applies various machine learning models, such as Elastic-Net regression, support vector regression, Kernel SVR, Decision tree, random forests, KNN, and gradient boost to predict median house prices in Washington State. Through a comprehensive process that includes data scraping, preprocessing, model tuning, and evaluation, the project provides insights into the housing market and offers a tool for house price estimation.
+## Problem Statement
+
+The process of finding a suitable place to live is a significant life decision that impacts individuals and families alike. However, determining whether a house price is reasonable or whether a particular region holds value for real estate investment can be challenging. Factors such as weather conditions, educational resources, crime rates, and socio-economic factors contribute to the complexity of the issue. Identifying the key factors that strongly correlate with house prices becomes crucial in providing accurate predictions.
+
+In response to this complexity, this project aims to design a machine learning model to forecast house prices in Washington State, taking into consideration various influential parameters. It seeks to provide profound insights into the region's real estate landscape by elucidating the relationships between house prices and these factors.
+
+This predictive model's successful implementation could assist individuals and families contemplating relocation or real estate investment. Through a methodologically sound and data-driven approach to house price dynamics, the model aspires to facilitate well-informed residential choices.
+
+## Data Source
+
+The reliability and comprehensiveness of the data set are ensured through the collection of multifarious data encapsulating the intricate aspects of Washington State's housing market. Information is amassed from credible government open-source platforms such as data.gov, the United States Census Bureau Data, the U.S. Environmental Protection Agency, and the Federal Bureau of Investigation. These sources provide demographic, geospatial, and socio-economic data. The median house prices, which are the dependent variable, are derived through web scraping techniques from well-established property websites such as Zillow.
+
+The finalized data set encompasses data from all 621 cities within Washington, incorporating 28 feature variables including, but not limited to, `population`, `unemployment_rate`, `sales_tax_rate`, `air_quality_index`, and the target value of `median_house_price`.
 
 ## Data Collection
 The data collection phase employed web scraping techniques to gather data from various open-source statistic websites and real estate platforms. The resulting data set comprised data from 621 cities, each represented by 28 features and one target value. To scrape the data set, please run the following command or run the file  "web_crawler.py".
@@ -144,3 +157,9 @@ The models used worked well, especially Linear Regression, which had the best sc
   3. **Random Forest & Kernel SVR** 
   4. **Decision Tree**
   5. **K-Nearest Neighbors & Support Vector Regression (SVR)**, least effective but still have good prediction ability.
+ 
+## Summary
+
+This research project presents an investigation into the optimization and performance evaluation of various machine-learning models for house price prediction. The findings indicate a robust performance across all models, with adjusted R^2 values exceeding 0.88. In the analysis of different prediction models, the Gradient Boosting model was identified as the most proficient, though other models also exhibited praiseworthy predictive capabilities. Additionally, the research underscored the critical role of the cost of living index feature, illuminating its significance in enhancing the precision of median house price predictions.
+
+Overall, this project has been both engaging and educational, particularly in the realm of data processing, from the initial stages of data collection to the model evaluation. It provides an understanding of various machine learning models, leading to the creation of a prediction tool that does more than furnish accurate house price estimates. It unravels the factors influencing the housing market in Washington state, offering insights and actionable intelligence. The results can empower individuals, investors, and stakeholders with reliable information for informed decision-making in the real estate domain.
