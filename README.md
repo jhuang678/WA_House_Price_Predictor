@@ -46,15 +46,15 @@ python3 house_price_prediction.py
 ```
 
 During the analysis, it shows strong links between the cost of living and median house prices in Washington. On the other hand, there was no connection with the income tax rate since it's the same across all cities in the state. Specifically, the median house price tends to rise with the cost of living and median income, while it tends to decrease with an increase in the unemployment rate and air quality index.
-<img src="hist.png" alt="hist" width="900"/>
-<img src="corr.png" alt="hist" width="900"/>
+<img src="img/hist.png" alt="hist" width="900"/>
+<img src="img/corr.png" alt="hist" width="900"/>
 
 ## Outlier Detection
 
 
 Outlier detection was done to look for obvious mistakes in the features, such as negative values or percentages greater than one. Without specific knowledge about the distribution of some features, the focus was mainly on checking for these clear errors. After examining everything, no noticeable incorrect values were found.
 
-<img src="outlier_detection.png" alt="hist" width="900"/>
+<img src="img/outlier_detection.png" alt="hist" width="900"/>
 
 ## Data Scaling
 
